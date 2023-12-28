@@ -1,3 +1,29 @@
+libgd-barcode-perl (2.00-1) unstable; urgency=medium
+
+  * Import upstream version 2.00.
+  * Add debian/upstream/metadata.
+  * Drop fix-auto-Version.patch, fixed upstream.
+  * Update test and runtime dependencies.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.6.2.
+  * Set Rules-Requires-Root: no.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 03 Nov 2023 23:40:21 +0100
+
+libgd-barcode-perl (1.15-8) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 14 Jun 2022 21:43:15 +0100
+
 libgd-barcode-perl (1.15-7) unstable; urgency=medium
 
   * Add real package libgd-perl as first alternative in Depends.
